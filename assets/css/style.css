@@ -1,11 +1,45 @@
-@media screen and (max-width: 768px) {
-  .r-none{
-    visibility: hidden;
-  }
-   .r-show{
-    visibility:visible;
-   }
-   .container{
+.communication{
+  display: flex;
+  justify-content: space-between;
+}
+.Opening-time{
+  padding-top: 3% ;
+}
+.nav-logo {
+  display: none;
+}
+.nav-logo span{
+  color: #1c2752;
+}
+.callUs {
+  display: flex;
+  justify-content: center;
     
-   } 
+}
+
+@media screen and (max-width: 768px) {
+  .Opening-time{
+    padding: 0% ;
+  }
+  .communication{
+    display: none;
+  }
+  
+  .nav-logo {
+    display: block;
+  }
+  
+  .r-none{
+    display:none;
+  }
+  .r-show{
+    visibility:visible;
+  }
+  .callUs {
+    justify-content:start;
+    
+  }
+  
+   
+
   }
