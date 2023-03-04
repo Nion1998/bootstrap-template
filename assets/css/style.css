@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .r-none{
+    visibility: hidden;
+  }
+   .r-show{
+    visibility:visible;
+   }
+   .container{
+    
+   } 
+  }
