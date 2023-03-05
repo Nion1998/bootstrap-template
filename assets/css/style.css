@@ -1,0 +1,10 @@
+@media screen and (min-width: 765px) {
+    .nav-text{
+        font-size: 15px;
+        padding:0px;
+    }
+
+    .nav-button{
+        font-size: 15px;
+    }
+  }
